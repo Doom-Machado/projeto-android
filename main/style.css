@@ -173,11 +173,11 @@ footer > section{
     font-weight:600 ;
     padding: 10px;
 }
-footer > section > div > article > p {
+footer p {
     text-indent: 30px;
     padding: 10px;  
 }
-footer > section > div > article > p > a::after{
+footer  a::after{
     content: '\1F4CE';
 }
 footer > section > div{
@@ -187,7 +187,7 @@ footer > section > div{
     background-color: var(--cor0);
     box-shadow: 1px 1px 8px black;
 }
-footer > section > div > h2 {
+footer h2 {
     border-radius: 10px 10px 0px 0px;
     margin: 0%;
     background-color: var(--cor4);
